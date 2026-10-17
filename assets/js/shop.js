@@ -96,7 +96,7 @@
 
   render();
 
-  /* deep links: #floating filters, #ladoo opens that product */
+  /* deep links: #floating filters, #gujiya opens that product */
   var hash = decodeURIComponent(location.hash.slice(1));
   if (hash) {
     if (TT.collectionById(hash)) { setFilter(hash, false); }

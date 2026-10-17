@@ -23,10 +23,6 @@ window.TT = (function () {
   };
 
   var products = [
-    { id: "ladoo", c: "mithai", name: "Ladoo", kind: "Mithai Candles", price: 209, box: "Box of 6", img: "ladoo.jpg",
-      alt: "A window gift box of six golden ladoo candles on a brass thali",
-      desc: "Golden, sugar-dusted ladoo candles so lifelike your guests will reach for one. Zero calories, full festive flavour.",
-      inside: "Set of 6 ladoo candles in a mithai-style window gift box.", perfect: "Diwali gifting, pooja thalis, festive tablescapes." },
     { id: "gujiya", c: "mithai", name: "Gujiya", kind: "Mithai Candles", price: 209, box: "Box of 4", img: "gujiya.jpg",
       alt: "Four crimped gujiya candles with silver varq in a floral window box",
       desc: "Crimped gujiya candles finished with silver varq. A little Holi and Diwali nostalgia in every box.",

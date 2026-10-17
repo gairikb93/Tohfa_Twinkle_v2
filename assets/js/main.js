@@ -46,7 +46,7 @@
   /* small-boxes rail */
   var track = document.querySelector("[data-rail]");
   if (track && window.TT) {
-    var ids = ["rangoli", "spiral", "rose", "sunflower", "matki", "jasmine", "ladoo", "marigold"];
+    var ids = ["rangoli", "spiral", "rose", "sunflower", "matki", "jasmine", "rose-pillars", "marigold"];
     track.innerHTML = ids.map(function (id, i) {
       var p = TT.byId(id);
       var frame = p.plate
