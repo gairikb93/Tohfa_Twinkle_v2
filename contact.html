@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | Tohfa &amp; Twinkle</title>
+<meta name="description" content="Message Tohfa &amp; Twinkle on Instagram for orders, hampers, handwritten notes and bulk or corporate gifting.">
+<meta name="theme-color" content="#5c1f2d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23C9A45C' d='M50 0 59 41 100 50 59 59 50 100 41 59 0 50 41 41Z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="index.html"><span class="star twinkle" aria-hidden="true"></span>Tohfa &amp; Twinkle</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span>Menu</span><i class="ph ph-list" aria-hidden="true"></i></button>
+    <nav id="nav-links" class="nav-links" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html" aria-current="page">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-head">
+    <div class="wrap intro">
+      <h1 style="--i:0">Say <em>hello.</em></h1>
+      <p class="lead" style="--i:1">Tell us who you are gifting, or what you are treating yourself to. We will help you choose.</p>
+    </div>
+  </section>
+
+  <section class="contact-wrap">
+    <div class="wrap contact-grid">
+
+      <div>
+        <div class="ig-block reveal">
+          <a class="ig-handle" href="https://www.instagram.com/tohfaandtwinkle/" target="_blank" rel="noopener">@tohfaandtwinkle</a>
+          <p>Our orders happen over Instagram messages. Send us the names of the gifts you love and we will do the rest.</p>
+          <a class="btn btn-maroon" href="https://ig.me/m/tohfaandtwinkle" target="_blank" rel="noopener"><i class="ph ph-instagram-logo" aria-hidden="true"></i>Message us on Instagram</a>
+        </div>
+
+        <ul class="flow">
+          <li class="reveal"><span class="star" aria-hidden="true"></span><div><strong>Browse</strong><span class="d">Pick your favourites from the shop.</span></div></li>
+          <li class="reveal" style="--i:1"><span class="star" aria-hidden="true"></span><div><strong>DM us</strong><span class="d">Message us on Instagram with the product names.</span></div></li>
+          <li class="reveal" style="--i:2"><span class="star" aria-hidden="true"></span><div><strong>Personalise</strong><span class="d">Tell us about gift notes, hampers or bulk festive orders.</span></div></li>
+          <li class="reveal" style="--i:3"><span class="star" aria-hidden="true"></span><div><strong>Gift &amp; glow</strong><span class="d">We confirm your order and delivery details.</span></div></li>
+        </ul>
+      </div>
+
+      <div class="form-panel reveal" style="--i:1">
+        <h2>Write your message here</h2>
+        <p>Fill in what you know. We will turn it into a message you can send to us on Instagram in one tap.</p>
+        <form id="msg-form" novalidate>
+          <div class="field">
+            <label for="f-name">Your name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" aria-describedby="e-name">
+            <span class="err" id="e-name">Please tell us your name.</span>
+          </div>
+          <div class="field">
+            <label for="f-looking">What are you looking for</label>
+            <select id="f-looking" name="looking" aria-describedby="e-looking">
+              <option value="">Choose a collection</option>
+              <option>The Mithai Collection</option>
+              <option>The Floating Collection</option>
+              <option>The Pillar Collection</option>
+              <option>The Utsav Collection</option>
+              <option>The Love &amp; Bloom Collection</option>
+              <option>The Aroma Collection</option>
+              <option>A hamper put together for me</option>
+              <option>I would like some help choosing</option>
+            </select>
+            <span class="err" id="e-looking">Please choose one so we know where to begin.</span>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-occasion">The occasion</label>
+              <select id="f-occasion" name="occasion">
+                <option value="">Any occasion</option>
+                <option>Diwali</option>
+                <option>A new home</option>
+                <option>Anniversary or Valentine's Day</option>
+                <option>A birthday</option>
+                <option>A wedding</option>
+                <option>Just for me</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-kind">This order is</label>
+              <select id="f-kind" name="kind">
+                <option value="">A single gift</option>
+                <option>A few gifts for family and friends</option>
+                <option>A hamper</option>
+                <option>Bulk or corporate gifting</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-note">Anything else, or a note to add to the gift</label>
+            <textarea id="f-note" name="note" aria-describedby="h-note"></textarea>
+            <span class="help" id="h-note">Gift notes are handwritten by us. Share your words and we will take care of them.</span>
+          </div>
+          <div class="form-foot">
+            <button class="btn btn-maroon" type="submit"><i class="ph ph-copy" aria-hidden="true"></i>Copy and open Instagram</button>
+            <p class="small">Nothing is sent until you press send in Instagram.</p>
+          </div>
+          <div class="form-result" id="form-result" role="status"></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="wrap">
+      <div class="section-head"><h2 class="reveal">Good to know</h2></div>
+      <div class="faq-list reveal">
+        <details>
+          <summary>Can I add a handwritten note?<i class="ph ph-plus" aria-hidden="true"></i></summary>
+          <p>Yes. Add one to any Love &amp; Bloom gift by sharing your message when you order.</p>
+        </details>
+        <details>
+          <summary>Can you put together a hamper?<i class="ph ph-plus" aria-hidden="true"></i></summary>
+          <p>Of course. Pair a Matki or Phool set with a Mithai box, then message us and we will help you build it.</p>
+        </details>
+        <details>
+          <summary>Do you take bulk or corporate orders?<i class="ph ph-plus" aria-hidden="true"></i></summary>
+          <p>We do. Message us for bulk festive orders, return gifts and corporate gifting.</p>
+        </details>
+        <details>
+          <summary>Are the mithai candles edible?<i class="ph ph-plus" aria-hidden="true"></i></summary>
+          <p>No. They look good enough to eat, but they are strictly for lighting. Please keep them away from children and pets.</p>
+        </details>
+        <details>
+          <summary>How are prices shown?<i class="ph ph-plus" aria-hidden="true"></i></summary>
+          <p>All prices are per box, as listed in the shop. We confirm your order and delivery details once you message us.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer band">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html"><span class="star" aria-hidden="true"></span>Tohfa &amp; Twinkle</a>
+        <p class="tagline">Gifts that glow.</p>
+        <a class="foot-ig" href="https://www.instagram.com/tohfaandtwinkle/" target="_blank" rel="noopener"><i class="ph ph-instagram-logo" aria-hidden="true"></i>@tohfaandtwinkle</a>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <nav class="foot-links" aria-label="Footer">
+          <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About Us</a><a href="contact.html">Contact Us</a>
+        </nav>
+      </div>
+      <div>
+        <h4>Candle care</h4>
+        <p class="foot-care">Never leave a burning candle unattended. Keep away from children and pets, and place on a heat-resistant surface.</p>
+      </div>
+    </div>
+    <div class="foot-base"><span>&copy; 2026 Tohfa &amp; Twinkle</span><span>Gifts that glow.</span></div>
+  </div>
+</footer>
+
+<script src="assets/js/products.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/contact.js"></script>
+</body>
+</html>
